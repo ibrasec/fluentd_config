@@ -7,172 +7,282 @@
                   "format":"strict_date_optional_time||epoch_millis"
                },
                "action":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "bytes":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "connection_count":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "connection_count_max":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "connection_id":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "direction":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "drop_rate_current_avg":{
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "drop_rate_current_burst":{
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "drop_rate_id":{
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "drop_rate_max_avg":{
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "drop_rate_max_burst":{
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "drop_total_count":{
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "drop_type":{
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "dst_interface":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "dst_ip":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "dst_mapped_ip":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "dst_mapped_port":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "dst_port":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "duration":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "err_dst_interface":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "err_dst_ip":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "err_icmp_code":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "err_icmp_type":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "err_protocol":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "err_src_interface":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "err_src_ip":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "event_id":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "group":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "hashcode1":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "hashcode2":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "hit_count":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "host":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "icmp_code":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "icmp_code_xlated":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "icmp_seq_num":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "icmp_type":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "interface":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "interval":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "is_local_natted":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "is_remote_natted":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "message":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "msg":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "msgid":{
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "orig_dst_ip":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "orig_dst_port":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "orig_protocol":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "orig_src_ip":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "orig_src_port":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "payload":{
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "policy_id":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "protocol":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "reason":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "seq_num":{
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "severity":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "spi":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "src_fwuser":{
+                  "type":"string"
                },
                "src_interface":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "src_ip":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "src_mapped_ip":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "src_mapped_port":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "src_port":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "src_xlated_interface":{
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "src_xlated_ip":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
+               },
+               "src_xlated_port":{
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "tcp_flags":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "timestamp":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "tunnel_type":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "user":{
-                  "type":"string", "index": "not_analyzed"
+                  "type":"string",
+                  "index":"not_analyzed"
                },
                "worker":{
                   "type":"long"
+               },
+               "xlate_type":{
+                  "type":"string",
+                  "index":"not_analyzed"
                }
         }
       }
