@@ -1,7 +1,7 @@
 # copy and past the below inside your linux terminal.
 # this is going to create some ASA logs inside your /var/log/syslog file.
 
-echo "Aug  5 12:12:12 ASA-core-1 : %ASA-2-106001: Inbound TCP connection denied from 192.168.211.56/3376 to 200.1.1.1/10000 flags ACK">> /var/log/syslog
+echo "Aug  5 12:12:12 ASA-core-1 : %ASA-2-106001: Inbound TCP connection denied from 192.168.211.56/3376 to 200.1.1.1/10000 flags ACK on interface outside">> /var/log/syslog
 echo "Aug  5 12:12:13 ASA-core-1 : %ASA-3-106014: Deny inbound icmp src Outside:74.125.24.179 dst Inside:74.125.20.1 (type 3, code 1)" >> /var/log/syslog
 echo "Aug  5 11:12:14 ASA-access-1 : %ASA-6-106015: Deny TCP (no connection) from 1.1.1.1/389 to 2.2.2.2/38594 flags RST  on interface inside" >> /var/log/syslog
 echo "Aug  5 11:12:15 ASA-access-1 : %ASA-1-106021: Deny ICMP reverse path check from 192.168.200.2 to 192.168.5.1 on interface Inside" >> /var/log/syslog
