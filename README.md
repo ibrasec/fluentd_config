@@ -4,6 +4,11 @@ This repository includes the fluentd configuration file to be used to parse logs
 
 ### How to use
 - Download the contents of this repository on your /etc/fluent directory
+- You will need to install three fluentd/tdagent plugins
+    - fluent-plugin-elasticsearch 
+    - fluent-plugin-grok-parser 
+    - fluent-plugin-rewrite-tag-filter 
+
 
 **Note:**
 make sure to backup fluent.conf file if you already have one in your directory otherwise it might be overwritten.
