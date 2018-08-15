@@ -14,7 +14,7 @@ This repository includes the fluentd configuration file to be used to parse logs
 make sure to backup fluent.conf file if you already have one in your directory otherwise it might be overwritten.
 
 - Restart your fluentd 
-- The configuraiton file has been set so that fluentd<br> will read from the data stored inside /var/log/syslog,<br> so to test the code, add some ASA logs to this file using ```$ echo ```terminal command<br> example:
+- The configuraiton file has been set so that fluentd will read from the data stored inside /var/log/syslog,<br> so to test the code, go to the (tests) directory, then copy and paste the contents of the test_echo inside your shell terminal. this will populate your syslog log file with some ASA logs to be parsed by fluentd.
 
 echo \"Jul 31 16:29:08 ASA-TEST-1 : %ASA-4-106023: Deny tcp src Some-int_2:192.168.1.1/54246(ABCD-ms01) dst ABCD:172.16.1.1/443 by access-group \"Some-int_2_access_in\" [0xcb01c404, 0x0]\" >> /var/log/syslog
 
